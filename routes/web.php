@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/Lp6_Zels', function () {
     return view('selsa');
 });
+
+Route::get('/home', function () {
+    return view('home');
+});
